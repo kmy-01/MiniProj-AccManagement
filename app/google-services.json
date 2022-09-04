@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671449625732",
+    "project_id": "attendancetakingsys-miniproj",
+    "storage_bucket": "attendancetakingsys-miniproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671449625732:android:ab294d50a22c210dc6fed1",
+        "android_client_info": {
+          "package_name": "edu.utar.attendancetakingsys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671449625732-kk6cdcgvi9eg1f84riqhb11ou4pib5uv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGbHKTl1qSv_EfWjNrn_WlNj5v1_O_T80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671449625732-kk6cdcgvi9eg1f84riqhb11ou4pib5uv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
