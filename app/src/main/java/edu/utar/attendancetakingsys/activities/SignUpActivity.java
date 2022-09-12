@@ -18,14 +18,20 @@ import com.google.android.material.textfield.TextInputEditText;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import edu.utar.attendancetakingsys.R;
+import edu.utar.attendancetakingsys.classes.DAOStudent;
 
 public class SignUpActivity extends AppCompatActivity {
 
     TextInputEditText email_input, password_input;
     MaterialButton signup_btn;
+
     FirebaseAuth mAuth; // Singleton
+    FirebaseDatabase database = FirebaseDatabase.getInstance("https://webappdev-e8304-default-rtdb.asia-southeast1.firebasedatabase.app/");
+
     private static final String TAG_signup = "SignUpActivity";
 
     @Override
@@ -75,6 +81,7 @@ public class SignUpActivity extends AppCompatActivity {
 
                                 SharedPreferences sharedPref_userID = getSharedPreferences("StudentInfo", 0 );
                                 SharedPreferences.Editor sharedPrefEditor_userID = sharedPref_userID.edit();
+                                sharedPrefEditor_userID.putString("Current user email", email);
                                 sharedPrefEditor_userID.putString("Current user ID", currentUserID);
                                 sharedPrefEditor_userID.commit();
                             }
@@ -82,6 +89,7 @@ public class SignUpActivity extends AppCompatActivity {
                             // Go to main page after successful sign up
                             Intent stuinfo_intent = new Intent(context , StudentInfoActivity.class );
                             startActivity(stuinfo_intent);
+
 
                         } else {
                             // If sign up fails, display a message to the user.

@@ -3,14 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/drawable-anydpi/email_icon.xml" value="0.28072916666666664" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/drawable-anydpi/full_name.xml" value="0.290625" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/drawable-anydpi/student_id.xml" value="0.28072916666666664" />
         <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/drawable/button.xml" value="0.1685185185185185" />
-        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_account_info.xml" value="0.2" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/drawable/email.xml" value="0.28072916666666664" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/drawable/ic_launcher_background.xml" value="0.28072916666666664" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_account_info.xml" value="0.33" />
         <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_log_in.xml" value="0.22" />
         <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_login_sign_up.xml" value="0.1824074074074074" />
-        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_login_signup.xml" value="0.11666666666666667" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_login_signup.xml" value="0.25" />
         <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_main.xml" value="0.1824074074074074" />
         <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_sign_up.xml" value="0.1824074074074074" />
         <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/activity_student_info.xml" value="0.25" />
+        <entry key="..\:/Program Files/AndroidStudioProjects/AttendanceTakingSys/app/src/main/res/layout/custom_dialog.xml" value="1.0" />
       </map>
     </option>
   </component>

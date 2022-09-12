@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:text="Forgot Password"
             android:layout_gravity = "right"
+            android:clickable="true"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
